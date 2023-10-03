@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}  
+.container{
+    width: 1000px;
+    padding: 0px 20px;
+    margin: auto;
+
+}
+ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+
+}
+ul li{
+    padding: 25px ;
+}
+ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+ li:hover{
+    color: #D1884F;
+
+}
+ul a:hover{
+    color: #D1884F;
+
+}
+.active{
+     color: #D1884F;
+    
+
+}
+.main{
+    height: 100vh;
+width: 100%;
+padding: 40px 0;
+    
+}
+.main .contant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0
+}
+.main h3{
+    color: #3BBADB;
+    margin-bottom: 30px;
+}
+
+.main h1{
+    color: #008AAA;
+}
+.main h1 span{
+    color: #D1884F;
+
+}
+
+.main p {
+    margin-top: 50px;
+}
+.main p a {
+    color: #3BBADB;
+    text-decoration: none;
+
+}
+
+.left{
+    width: 540px;
+}
+.right{
+    height: auto;
+    width: 300px;
+    border-radius: 12px;}
+    
+.right img{
+    max-width: 100%;
+}
+
+.btn{
+    margin-top: 50px;
+}
+
+.Hire{
+    padding: 5px 24px;
+    background-color: #008AAA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+    border: 2px solid #ffffff;
+}
+.See{
+    padding: 5px 24px;
+    background-color: white;
+    color: #008AAA;
+    border: 2px solid  #008AAA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: 10px;
+}
+.See:hover{
+    color: white;
+    background-color: #008AAA;
+    cursor: pointer;
+}
+
+
+.container {
+    width: 1000px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .main .contant{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .main{
+        padding: 40px 19px;
+    }
+    .right{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    ul {
+        align-items: center;
+        padding: 10px 0;
+    }
+    ul li {
+        padding: 15px 0;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+
